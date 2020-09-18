@@ -11,7 +11,7 @@ fn main() {
         });
     }
 
-    
+    thread::sleep(Duration::from_secs(10));
 }
 
 fn do_task(i: i32) {
